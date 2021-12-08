@@ -1,0 +1,15 @@
+# Environment files
+environment*
+
+# original images
+/images/originals/*
+
+# Jekyll build process
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+# Other files
+.tweet-cache
+node_modules
+.DS_Store
