@@ -29,6 +29,10 @@ h5, .h5 { font-size: $font-size-base; }
 h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
 
 //my personal additions
+$font-family-sans-serif: Raleway!important;
+
+body {background-color: #004466!important; color: #e6e6e6!important}
+
 figure {
   display: table;
   //width: min-content;
@@ -49,6 +53,7 @@ figcaption {
  // caption-side: bottom;
  // width: 300px;
   text-align: center;
+ // color: #e6e6e6!important
  // max-width: 100%;
 }
 
